@@ -10,7 +10,7 @@ variable "aws_region_az" {
 
 variable "ami_id" {
   description = "ID of the AMI to provision. Default is Ubuntu 14.04 Base Image"
-  default = "ami-078d67dde09ca5bd6"
+  default = "ami-00cf63b12c53803a5"
 }
 
 variable "instance_type" {
@@ -20,5 +20,5 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to Name tag"
-  default = "avinash-infra-provisioner"
+  default = "vijay-infra-provisioner"
 }
